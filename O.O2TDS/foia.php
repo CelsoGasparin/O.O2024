@@ -12,8 +12,6 @@
 
 
 
-
-
 function atv3(){
     $Yin = 1980;
     $Yla = 2024;
@@ -23,6 +21,15 @@ function atv3(){
         }
     }
 }
+function atv2(){
+    $N = 5;
+    $R = 3;
+    $PetEORepet = 10;
+    for($i=0; $i < 10; $i++){ 
+        $N += $R;
+    }
+}
+
 function atv1(){
     $j = 10;
     for($i=1; $i <= $j*2; $i += 2){ 
