@@ -1,5 +1,5 @@
 <?php
-
+print atv2();
 
 
 
@@ -25,9 +25,11 @@ function atv2(){
     $N = 5;
     $R = 3;
     $PetEORepet = 10;
-    for($i=0; $i < 10; $i++){ 
+    for($i=0; $i < 10; $i++){
+        print $N." "; 
         $N += $R;
     }
+    return $N;
 }
 
 function atv1(){
