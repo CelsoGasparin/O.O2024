@@ -17,13 +17,18 @@ for($i=0; $i < $alunos; $i++){
 
 
 
-function atv_6(){
-    $valor1 = 2;
-    $valor2 = 4;
+function atv_6($valor1,$valor2){
     $resultado = 0;
-    for($i=0; $i < $valor2; $i++){ 
-        $resultado += $valor1;
+    if($valor2 > 0){
+        for($i=0; $i < $valor2; $i++){ 
+            $resultado += $valor1;
+        }
+    }elseif($valor2 < 0){
+        for($i=$valor2; $i < 0; $i++){ 
+            $resultado -= $valor1;
+        }
     }
+    
     return $resultado;
 }
 function atv_5(){
