@@ -15,12 +15,14 @@ function primos(){
         $bool = true;
         for($i=2; $i < $primo; $i++){ 
             if($primo%$i == 0){
-                $bool = false;           
-            }
-            if($bool == false){
+                $bool = false;
                 print"$primo não é primo:(\n";
                 $i = $primo;
+                break;           
             }
+            
+
+            
         }
         if($bool == true){
             print"$primo é primo:)\n";

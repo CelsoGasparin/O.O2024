@@ -4,13 +4,13 @@
 
 
 
-
-
-
-
-
-
-
+function atv_4(){
+    $A = readline("Informe um número A");
+    $B = readline("Informe um número B");
+    $C = readline("Informe um número C");
+    $media = mediaPon($A,$B,$C);
+    print"A média ponderada desses valores A B C é ".$media;
+}
 
 function atv_3($cidades){
     for($i=0; $i < $cidades; $i++){ 
@@ -46,7 +46,9 @@ function atv_1(int $xizes){
 
 
 
-
+function mediaPon($A,$B,$C){
+    return (($A*3)+($B*5)+($C*2))/10;
+}
 function ImprimaDados($nome,$habitantes,$area,$altitude,$estado){
     printf("%s|%d|%dkm²|%dm|%s\n",$nome,$habitantes,$area,$altitude,$estado);
 }

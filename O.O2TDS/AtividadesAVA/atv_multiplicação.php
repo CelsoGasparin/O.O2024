@@ -1,7 +1,7 @@
 <?php
 
 
-print mult(2,-4);
+print mult(1,-1);
 
 function mult($valor1,$valor2){
 

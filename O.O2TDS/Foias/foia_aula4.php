@@ -18,9 +18,6 @@ function check($num){
             if($num%$i == 0){
                 $bool = false;           
             }
-            if($bool == false){
-                return $bool;
-            }
         }
     return $bool;    
 }
