@@ -1,1 +1,17 @@
+1a)
 
+Informe a nota 1: 10
+Informe a nota 2: 4
+Aprovado - Média: 7
+
+b)
+
+Informe a nota 1: 7
+Informe a nota 2: 3
+Reprovado - Média: 5
+
+
+2
+
+Julio - 25
+Maria - 32
