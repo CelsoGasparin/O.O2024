@@ -5,7 +5,7 @@ $livro1 = [
     "DataPublicacao" => "29/10/2013",
     "Editora" => "Mulholland Books",
     "Edicao" => "1",
-    "Autor(es)" => "J.J. Abrams, Doug Dorst",
+    "Autores" => "J.J. Abrams, Doug Dorst",
     "Pags" => "472",
 ];
 $livro2 = [
@@ -13,7 +13,7 @@ $livro2 = [
     "DataPublicacao" => "01/02/2017",
     "Editora" => "Primedia eLaunch LLC",
     "Edicao" => "1",
-    "Autor(es)" => "Dimitris Chassapakis",
+    "Autores" => "Dimitris Chassapakis",
     "Pags" => "148",
 ];
 $livro3 = [
@@ -21,7 +21,7 @@ $livro3 = [
     "DataPublicacao" => "04/05/2021",
     "Editora" => "Harper Business",
     "Edicao" => "Expanded",//ERA OQUE TAVA ESCRITO
-    "Autor(es)" => "Robert B. Cialdini",
+    "Autores" => "Robert B. Cialdini",
     "Pags" => "592",
 ];
 $livro4 = [
@@ -29,7 +29,7 @@ $livro4 = [
     "DataPublicacao" => "07/03/2000",
     "Editora" => "Pantheon",
     "Edicao" => "2",
-    "Autor(es)" => "Mark Z. Danielewski",
+    "Autores" => "Mark Z. Danielewski",
     "Pags" => "736",
 ];
 $livros = array($livro1,$livro2,$livro3,$livro4);
@@ -39,6 +39,6 @@ ExibDados($livros);
 
 function ExibDados($dados){
     foreach($dados as $dado){
-        print $dado['Nome']." | ".$dado["DataPublicacao"]." | ".$dado['Editora']." | ".$dado['Edicao']." | ".$dado['Autor(es)']." | ".$dado['Pags']."\n";
+        print $dado['Nome']." | ".$dado["DataPublicacao"]." | ".$dado['Editora']." | ".$dado['Edicao']." | ".$dado['Autores']." | ".$dado['Pags']."\n";
     }
 }
