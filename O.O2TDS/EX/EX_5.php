@@ -74,7 +74,12 @@ class Pokemon{
     }
 
     function daycare(){
-        
+        $qtip = "oi";
+        while(is_int($qtip) == false) {
+            print "Quanto tempo seu pokemon vai passar aqui?\n";
+            $qtip = lerT();
+        }
+        $this->xp += 7500;
     }
 
     function lvl_up(){
