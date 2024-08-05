@@ -1,11 +1,13 @@
 <?php
 
 
+
+
 function lerT(){
     $arq1 = fopen('/dev/stdin','r');
     $tecla = fgets($arq1,255);
     fclose($arq1);
-    return $tecla;
+    return $tecla;//COMPLETAMENTE DESNECESSÁRIO EU FIZ PQ DEU VONTADE É LITERALEMENTE UM READLINE
 }
 
 class Pokemon{
@@ -79,7 +81,7 @@ class Pokemon{
             print "Quanto tempo seu pokemon vai passar aqui?\n";
             $qtip = lerT();
         }
-        $this->xp += 7500;
+        $this->xp += 7500*$qtip;
     }
 
     function lvl_up(){
@@ -94,3 +96,10 @@ class Pokemon{
 }
 $vaporeon= new Pokemon("Vaporeon",100,130,65,60,110,95,65);
 $vaporeon->check();
+
+
+
+
+
+
+
