@@ -7,7 +7,7 @@ function lerT(){
     $arq1 = fopen('/dev/stdin','r');
     $tecla = fgets($arq1,255);
     fclose($arq1);
-    return $tecla;//COMPLETAMENTE DESNECESSÁRIO EU FIZ PQ DEU VONTADE É LITERALEMENTE UM READLINE
+    return $tecla;//COMPLETAMENTE DESNECESSÁRIO EU FIZ PQ DEU VONTADE É LITERALEMENTE UM READLINE autalizações acabei de perceber que é pior que o readline.ebaaa
 }
 
 class Pokemon{
